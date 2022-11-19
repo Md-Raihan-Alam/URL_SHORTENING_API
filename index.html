@@ -34,8 +34,27 @@
   <div class="cursor-pointer font-bold w-full h-10 flex justify-center text-white items-center">Pricing</div>
   <div class="cursor-pointer font-bold w-full h-10 flex justify-center text-white items-center">Resources</div>
   <div class="cursor-pointer w-full h-10 flex justify-center text-white items-center"><span class="w-11/12 h-one bg-white"></span></div>
-  <div class="cursor-pointer font-bold w-full h-10 flex justify-center text-white items-center">Login</div>
+  <div class="cursor-pointer font-bold w-full h-10 flex justify-center t
+  ext-white items-center">Login</div>
   <div class="cursor-pointer font-bold bg-cyan rounded-full w-full h-10 flex justify-center text-white items-center">Sign Up</div>
+</div>
+<div class="flex flex-col tab:flex-row-reverse justify-center items-center">
+  <picture class="tab:w-3/6">
+    <img src="./images/illustration-working.svg"/>
+  </picture>
+  <div class="flex flex-col justify-center items-center tab:items-start w-full tab:w-3/6 h-min my-5">
+    <div class="w-full tab:w-heroWidth tab:ml-7 justify-center items-center tab:items-start font-bold text-3xl text-center my-4 px-2 tab:px-0  tab:text-start">More than just shorter Links</div>
+    <div class="w-full tab:w-heroWidth tab:ml-7 justify-center items-center tab:items-start text-GRAY text-center my-4 px-5 tab:px-0  tab:text-start">Build your brans's recognition and get detailed insights on how your links are performing</div>
+    <div class="text-white tab:ml-7 font-bold min-w-heroWidth bg-cyan rounded-full px-4 py-2 flex justify-center items-center ">Get Started</div>
+  </div>
+</div>
+  <div class="w-full relative backgroundShorten flex flex-col tab:flex-row justify-center items-center h-min py-4">
+    <div class="w-11/12 tab:w-[70%] pl-2 outline-none rounded-md py-2 my-5">
+      <input type="text" placeholder="shorten a link here..." class="w-full pl-2 outline-none rounded-md py-2" id="urlLink"/>
+      <div class="text-specialRed w-11/12 relative justify-start items-start font-bold hidden" id="warning">Please add a link</div>
+    </div>
+    <button class="w-11/12 relative tab:min-w-heroWidth tab:max-w-formWidth tab:ml-2 rounded-lg bg-cyan text-white font-bold py-3 my-5" id="shortenAPI">Shorten It!</button>
+  </div>
 </div>
 </body>
 <script src="./dist/script.js"></script>
