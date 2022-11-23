@@ -8,10 +8,12 @@ module.exports = {
         "menuWidth":"250px",
         "zero":"0",
         "one":"1px",
+        "svgWidth":"100px",
         "outOfWindow":"500px",
         "heroWidth":"70%",
         "dangerLink":"120px",
         "mediaDangerLink":"170px",
+        "offerWidth":"300px",
       },
       minWidth:{
         "btnWidth":"90px",
@@ -19,11 +21,15 @@ module.exports = {
       },
       maxWidth:{
         "formWidth":"140px",
+        "descWidth":"400px",
       },
       backgroundColor:{
         "grayishBlue":"hsl(257, 27%, 26%)",
         "cyan":"hsl(180, 66%, 49%)",
         "specialRed": "hsl(0, 87%, 67%)",
+        "darkViolet":"hsl(260, 8%, 14%)",
+        "grayishViolet":"hsl(257, 7%, 63%)",
+        "darkBlue":"hsl(255, 11%, 22%)",
       },
       colors:{
         "GRAY":"hsl(0, 0%, 75%)",
@@ -33,7 +39,7 @@ module.exports = {
         "zeroAuto":"0 auto",
       },
       screens:{
-        "tab":"520px",
+        "tab":"750px",
       },
       content:{
         "warning":"Please fill the form",
