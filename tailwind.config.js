@@ -14,14 +14,17 @@ module.exports = {
         "dangerLink":"120px",
         "mediaDangerLink":"170px",
         "offerWidth":"300px",
+        "offerHeight":"300px",
       },
       minWidth:{
         "btnWidth":"90px",
         "heroWidth":"140px",
+        "textWidth":"400px",
       },
       maxWidth:{
         "formWidth":"140px",
         "descWidth":"400px",
+        "btnWidth":"90px",
       },
       backgroundColor:{
         "grayishBlue":"hsl(257, 27%, 26%)",
@@ -34,6 +37,7 @@ module.exports = {
       colors:{
         "GRAY":"hsl(0, 0%, 75%)",
         "specialRed":"hsl(0, 87%, 67%)",
+        "cyan":"hsl(180, 66%, 49%)",
       },
       margin:{
         "zeroAuto":"0 auto",

@@ -34,8 +34,7 @@
   <div class="cursor-pointer font-bold w-full h-10 flex justify-center text-white items-center">Pricing</div>
   <div class="cursor-pointer font-bold w-full h-10 flex justify-center text-white items-center">Resources</div>
   <div class="cursor-pointer w-full h-10 flex justify-center text-white items-center"><span class="w-11/12 h-one bg-white"></span></div>
-  <div class="cursor-pointer font-bold w-full h-10 flex justify-center t
-  ext-white items-center">Login</div>
+  <div class="cursor-pointer font-bold w-full h-10 flex justify-center text-white items-center">Login</div>
   <div class="cursor-pointer font-bold bg-cyan rounded-full w-full h-10 flex justify-center text-white items-center">Sign Up</div>
 </div>
 <div class="flex flex-col tab:flex-row-reverse justify-center items-center">
@@ -53,55 +52,56 @@
       <input type="text" placeholder="shorten a link here..." class="w-full pl-2 outline-none rounded-md py-2" id="urlLink"/>
       <div class="text-specialRed w-11/12 relative justify-start items-start font-bold hidden" id="warning">Please add a link</div>
     </div>
-    <button class="w-11/12 relative tab:min-w-heroWidth tab:max-w-formWidth tab:ml-2 rounded-lg bg-cyan text-white font-bold py-3 my-5" id="shortenAPI">Shorten It!</button>
+    <button class="w-11/12 relative tab:min-w-heroWidth tab:max-w-formWidth tab:ml-2 rounded-lg bg-cyan text-white font-bold py-3 my-5 hover:opacity-90" id="shortenAPI">Shorten It!</button>
   </div>
-<div id="shorteLinkDiv">
-
+<div class="flex flex-col justify-center items-center my-5" id="shorteLinkDiv">
+ 
 </div>
-<div id="offers" class=" bg-GRAY">
-  <div class="w-full h-8 flex justify-center items-center">
+<div id="offers">
+  <div class="w-full h-8 flex justify-center items-center mb-5">
     <div class="w-full h-min flex justify-center items-center text-3xl font-bold text-center pt-4">Advanced Statistics</div>
   </div>
-  <div class="w-full h-min flex justify-center items-center">
+  <div class="w-full h-min flex justify-center items-center mb-16">
     <div class="max-w-descWidth h-min py-4 flex justify-center items-center text-center text-GRAY">Track how your links are performing across the web with our advanced statistics dashboard</div>
   </div>
-  <div class="flex flex-col h-min justify-center items-center my-4">
-    <div class="bg-white mb-28 rounded-sm w-offerWidth relative py-7 h-min flex flex-col justify-center items-center">
-      <div class="flex justify-center items-center absolute -top-[60px] w-svgWidth rounded-full h-svgWidth bg-darkViolet">
+  <div class="flex flex-col tab:flex-row relative h-min justify-center flex-nowrap tab:flex-wrap items-center">
+    <div class="w-full tab:w-[60%] h-[20px] bg-cyan rounded-full absolute rotate-90 tab:rotate-0 tab:top-[8.5rem]"></div>
+    <div class="shadow-2xl bg-white mb-28 tab:mx-5 rounded-sm w-offerWidth relative py-7 h-offerHeight flex flex-col justify-center tab:justify-start items-center">
+      <div class="flex justify-center items-center absolute -top-[60px] tab:left-[10px] w-svgWidth rounded-full h-svgWidth bg-darkViolet">
         <img src="./images/icon-brand-recognition.svg" alt="Brand-Recognition"/>
       </div>
-      <div class="w-full h-min py-4 mt-10 font-bold text-2xl flex justify-center items-center">
+      <div class="w-full h-min py-4 mt-10 font-bold text-2xl flex justify-center items-center tab:justify-start tab:pl-4">
         Brand Recognition
       </div>
-      <div class="w-menuWidth h-min flex justify-center items-center text-center">
+      <div class="w-full h-min flex justify-center items-center text-center px-3 tab:pl-4 tab:text-start tab:pr-4">
         Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content
       </div>
     </div>
-    <div class="bg-white mb-28 rounded-sm w-offerWidth relative py-7 h-min flex flex-col justify-center items-center">
-      <div class="flex justify-center items-center absolute -top-[60px] w-svgWidth rounded-full h-svgWidth bg-darkViolet">
+    <div class="shadow-2xl bg-white mb-28 tab:mb-12 tab:mx-5 rounded-sm w-offerWidth relative py-7 h-offerHeight flex flex-col justify-center items-center tab:justify-start">
+      <div class="flex justify-center items-center absolute -top-[60px] tab:left-[10px] w-svgWidth rounded-full h-svgWidth bg-darkViolet">
         <img src="./images/icon-detailed-records.svg" alt="Brand-Recognition"/>
       </div>
-      <div class="w-full h-min py-4 mt-10 font-bold text-2xl flex justify-center items-center">
+      <div class="w-full h-min py-4 mt-10 font-bold text-2xl flex justify-center items-center tab:justify-start tab:pl-4">
         Detailed Records
       </div>
-      <div class="w-menuWidth h-min flex justify-center items-center text-center">
+      <div class="w-full h-min flex justify-center items-center text-center px-3 tab:pl-4 tab:text-start tab:pr-4">
         Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inofrm better decisions
       </div>
     </div>
-    <div class="bg-white mb-3 rounded-sm w-offerWidth relative py-7 h-min flex flex-col justify-center items-center">
-      <div class="flex justify-center items-center absolute -top-[60px] w-svgWidth rounded-full h-svgWidth bg-darkViolet">
+    <div class="shadow-2xl bg-white mb-28 tab:mb-3 tab:mx-5 rounded-sm w-offerWidth relative py-7 h-offerHeight flex flex-col justify-center items-center tab:justify-start">
+      <div class="flex justify-center items-center absolute -top-[60px] tab:left-[10px] w-svgWidth rounded-full h-svgWidth bg-darkViolet">
         <img src="./images/icon-fully-customizable.svg" alt="Brand-Recognition"/>
       </div>
-      <div class="w-full h-min py-4 mt-10 font-bold text-2xl flex justify-center items-center">
+      <div class="w-full h-min py-4 mt-10 font-bold text-2xl flex justify-center items-center tab:justify-start tab:pl-4">
         Fully Customizable
       </div>
-      <div class="w-menuWidth h-min flex justify-center items-center text-center">
+      <div class="w-full h-min flex justify-center items-center text-center px-3 tab:pl-4 tab:text-start tab:pr-4">
         Improve brand awareness and content discoverability through customizable links, supercharging audience engagement
       </div>
     </div>
   </div>
 </div>
-<div class="backgroundBoost w-full h-min flex flex-col justify-center items-center mt-5" id="boost">
+<div class="backgroundBoost w-full h-min flex flex-col justify-center items-center bg-darkViolet" id="boost">
   <div class="text-3xl w-full justify-center items-center text-center my-6 text-white">
     Boost your links today
   </div>
