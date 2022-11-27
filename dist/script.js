@@ -59,6 +59,17 @@ function shortenAPI(urlLink) {
                         prevElement === null || prevElement === void 0 ? void 0 : prevElement.select();
                         prevElement.setSelectionRange(0, 99999);
                         navigator.clipboard.writeText(prevElement.value);
+                        console.log("working");
+                        ev.classList.remove("bg-cyan");
+                        ev.classList.add("bg-darkViolet");
+                        ev.classList.remove("hover:opacity-50");
+                        ev.innerText = "Copied!";
+                        setTimeout(() => {
+                            ev.classList.add("bg-cyan");
+                            ev.classList.remove("bg-darkViolet");
+                            ev.classList.add("hover:opacity-50");
+                            ev.innerText = "Copy";
+                        }, 2000);
                     });
                 });
             }
