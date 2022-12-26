@@ -19,8 +19,8 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions url-shortening-api-landing-page-mxQpVHzIrJ)
+- Live Site URL: [Add live site URL here](https://md-raihan-alam.github.io/URL_SHORTENING_API/)
 
 ## My process
 
