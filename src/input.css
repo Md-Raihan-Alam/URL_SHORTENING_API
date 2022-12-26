@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    src: url("https://fonts.google.com/specimen/Poppins");
+    font-weight:500;
+}
 .backgroundShorten{
     background-image:url("../images/bg-shorten-mobile.svg");
     background-size:100% 100%;

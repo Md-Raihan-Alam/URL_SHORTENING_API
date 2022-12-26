@@ -48,6 +48,9 @@ module.exports = {
       content:{
         "warning":"Please fill the form",
       },
+      fontFamily:{
+        "poppins":"Alegreya Sans SC', sans-serif",
+      }
     },
   },
   plugins: [],
